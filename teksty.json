@@ -1,0 +1,7 @@
+{
+    "texts": [
+        "Kopiec Fibonacciego to struktura realizująca kolejkę priorytetową, składająca się ze zbioru drzew, Czasy amortyzacji wszystkich operacji na kopcach Fibonacciego są stałe, z wyjątkiem delete-min .  Usuwanie elementu (najczęściej stosowane w szczególnym przypadku usuwania elementu minimalnego) działa w O(logn) gdzie n - rozmiar kopca. ",
+        "Kopiec Fibonacciego to zbiór drzew spełniających własność kopca minimalnego , tzn. klucz dziecka jest zawsze większy lub równy kluczowi rodzica. Oznacza to, że klucz minimalny zawsze znajduje się u korzenia jednego z drzew. W porównaniu ze kopcami dwumianowymi struktura kopca Fibonacciego jest bardziej elastyczna. Drzewa nie mają określonego kształtu, a w skrajnym przypadku kopiec może mieć każdy element w oddzielnym drzewie. Ta elastyczność pozwala na wykonywanie niektórych operacji w leniwy sposób, odkładając pracę na późniejsze operacje. Na przykład scalanie kopców odbywa się po prostu przez łączenie dwóch list drzew, a operacja zmniejszania klucza czasami odcina węzeł od jego rodzica i tworzy nowe drzewo.",
+        "Jednak w pewnym momencie konieczne jest wprowadzenie porządku do sterty, aby osiągnąć pożądany czas działania. W szczególności stopnie węzłów (tutaj stopień oznacza liczbę bezpośrednich dzieci) są utrzymywane na dość niskim poziomie: każdy węzeł ma stopień co najwyżej logn i rozmiar poddrzewa zakorzenionego w węźle stopnia k, jest przynajmniej Fk+2, gdzie Fi jest i liczba Fibonacciego"
+    ]
+}
