@@ -1,6 +1,6 @@
 # Kopiec Fibonacciego z wizualizacją
 Implementacja kopca fibonacciego i wizualizacja tkinter
-Kopiec fibonacciego to implementacja kolejki priorytetowej. Każdy węzeł w kopcu ma priorytet na podstawie którego jest wyznaczana kolejnośc usuwania węzłów z kopca (najmniejszy priorytet najpierw). Kopiec składa się z listy korzeni drzew, które są drzewami mogącymi mieć dowolną ilośc dzieci w węźle (nie musi być to dwa, tak więc nie jest to kopiec binarny). Struktura zachowuje porządek kopca, czyli zawsze dzieci węzła mają większy priorytet niż rodzic.
+Kopiec fibonacciego to implementacja kolejki priorytetowej. Każdy węzeł w kopcu ma priorytet na podstawie którego jest wyznaczana kolejnośc usuwania węzłów z kopca (najmniejszy priorytet najpierw). Kopiec składa się z listy korzeni drzew, które są drzewami mogącymi mieć dowolną ilośc dzieci w węźle (nie musi być to dwa, tak więc nie jest to kopiec binarny). Struktura zachowuje porządek kopca, czyli zawsze dzieci węzła mają większy priorytet niż rodzic. Inspiracją do stworzenia projektu był kod opisany w książce Wprowadzenie do Algorytmów - Cormen, Leicerson, Rivest.
 ## Pliki, które wchodzą w skład projektu
 - fib_heap_utils.py
 - printableHeap.py
